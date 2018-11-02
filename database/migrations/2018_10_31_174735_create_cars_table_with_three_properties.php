@@ -15,8 +15,8 @@ class CreateCarsTableWithThreeProperties extends Migration
     {
         Schema::create('cars', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('make');
-            $table->enum( 'model',['ford', 'honda','toyota']);
+            $table->enum( 'make',['ford', 'honda','toyota']);
+            $table->string('model');
             $table->year('year');
             $table->timestamps();
         });
