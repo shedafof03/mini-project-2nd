@@ -22,7 +22,7 @@ class ContactFormTest extends TestCase
 		$user = User::first();
         $this->be($user); //You are now authenticated
         $response = $this->get('/contact-us');
-        $response->assertStatus(200)
+        $response->assertStatus(200);
 		
     }
 }
