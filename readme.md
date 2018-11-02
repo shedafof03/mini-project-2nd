@@ -1,58 +1,37 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
-## About Laravel
+## Mini Project 2nd
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+In this project you need to create a NEW Laravel site and complete the following,
+Test Setup Instructions are here.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+1.  Configure a new Laravel website from laravel directory.
+2.  Generate the default laravel authentication login register etc.
+3.  Create a db seed that inserts 50 users in the cars table
+4.  Create a new model named car and add 3 properties to it: Make, Model, and year as well as migration
+5.  Create a factory for cars that sets the “make: field to either ford / honda / toyota
+6.  Create a db seed to generate 50 cars. 
+7.  Create a controller, route, and view to show a contact form and add it to the main menu of main site.
+8.  Create a controller, route, and view to show an about page and add it to the main menu of main site.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-## Learning Laravel
+Unit tests - Each unit test uses an Assertion to check if it was done.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+9.   Create a feature test that check the register page returns a 200 status code.
+10.  Create a feature test to check if the login pages return a 200 status code.
+11.  Create a feature test to check if you’re about page returns a 200 status code.
+12.  Create a feature test to check if your contact page returns a 200 status code.
+13.  Write a unit test to insert a user into the users table.
+14.  Write a unit test to update the name of a user in the db to Steve Smith.
+15.  Write a unit test to delete a user in the db.
+16.  Write a unit test to count the number of records inserted by the db seed.  i.e. $userCount = 50
+17.  Write a unit test to test inserting a car into table.
+18.  Write a unit test to test updating a car year to 2000.
+19.  Write a unit test to test deleting a car record.
+20.  Write a unit test to test to count the records inserted by the db seed.  i.e. $carCount = 50
+21.  Write a unit test to check if a car's year field is an integer.
+22.  Write a unit test to check if a car's make is either ford / honda / toyota.
+23.  Write a unit tests to check that the model field in cars table is a string.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
